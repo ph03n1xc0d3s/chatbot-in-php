@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+div > p {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #f2f2f2;
+  height: 750px;
+}
+
+.mainContainer .userInput {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.mainContainer .userInput:focus {
+  outline: none;
+}
+
+.chatContainer {
+  width: 500px;
+  min-height: 300px;
+  box-shadow: 3px 4px 4px #888888;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.sendBtn {
+  font-size: 16px;
+  background-color: #279eff;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.sendBtn:hover {
+  cursor: pointer;
+}

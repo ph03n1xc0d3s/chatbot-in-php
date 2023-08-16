@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #213363;
+}
+
+div > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 500px;
+  color: #fff;
+  height: auto;
+}
+
+.typing-demo {
+
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+ul li {
+  font-family: "Poppins", sans-serif;
+  width: 600px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: url("../assets/images/chatbot.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 750px;
+}
+
+.mainContainer .userInput {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.mainContainer .userInput:focus {
+  outline: none;
+}
+
+.chatContainer {
+  width: 610px;
+  min-height: 300px;
+  box-shadow: 3px 4px 4px #aeaeae;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #3c3c3c;
+}
+
+.sendBtn {
+  font-size: 16px;
+  background-color: #279eff;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100px;
+  margin-left: 10px;
+}
+.sendBtn:hover {
+  cursor: pointer;
+}
+.chatSection {
+  margin-left: 100px;
+}
